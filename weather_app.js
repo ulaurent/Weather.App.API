@@ -4,6 +4,7 @@ var long;
 // This if statement checks to see if the user location is available 
 // if it is set there longtitude and latitude to the url/API
 // else provide them with a answer not avaialable
+// Run in codepen.io
 
 if (navigator.geolocation){
     navigator.geolocation.getCurrentPosition(function(position){
